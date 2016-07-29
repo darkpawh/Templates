@@ -177,7 +177,8 @@
             "caching": "ReadWrite",
             "createOption": "FromImage"
           },
-          "dataDisks": {
+          "dataDisks": [
+            {
             "name": "datadisk1",
             "diskSizeGB": "[parameters('sizeOfEachDataDiskInGB')]",
             "lun": 0,
@@ -186,6 +187,7 @@
             },
             "createOption": "Empty"
           }
+          ]
         },
         "networkProfile": {
           "networkInterfaces": [
