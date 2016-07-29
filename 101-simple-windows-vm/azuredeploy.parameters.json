@@ -3,16 +3,22 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "newStorageAccountName": {
-      "value": "myStorageAccount"
+      "value": "gjsstore1"
     },
     "adminUsername": {
       "value": "admin123"
     },
     "adminPassword": {
-      "value": "ADmin123_!"
+      "value": "$hittyPassword"
     },
     "dnsNameForPublicIP": {
-      "value": "myDnsName"
+      "value": "gjs1337"
+    },
+    "location": {
+      "value": "West US"
+    },
+    "sizeOfEachDataDiskInGB": {
+      "value": "20"
     }
   }
 }
